@@ -6,7 +6,7 @@ Feature: User Authentication tests
 
   Scenario: Login should be success
     And User enter the username as "ortoni11"
-    And User enter the password as "Pass1234"
+    And User enter the password as "Pass12341"
     When User click on the login button
     Then Login should be success
 
